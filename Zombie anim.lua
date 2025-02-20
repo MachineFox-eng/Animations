@@ -58,17 +58,18 @@ local function runLocalAnimate(character)
     local fallAnim = fall:WaitForChild("FallAnim", 5)
     local swimAnim = swim:WaitForChild("Swim", 5)
     local swimIdleAnim = swimidle:WaitForChild("SwimIdle", 5)
-
+    
     -- Substituindo as animações
-    Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616158929"
-    Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616160636"
-    Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616168032"
-    Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616163682"
-    Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616161997"
-    Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=10921070953"
-    Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616157476"
-    Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=99384245425157"
-    Animate.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=113199415118199"
+    idleAnim1.AnimationId = "http://www.roblox.com/asset/?id=616158929"
+    idleAnim2.AnimationId = "http://www.roblox.com/asset/?id=616160636"
+    walkAnim.AnimationId = "http://www.roblox.com/asset/?id=616168032"
+    runAnim.AnimationId = "http://www.roblox.com/asset/?id=616163682"
+    jumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616161997"
+    climbAnim.AnimationId = "http://www.roblox.com/asset/?id=10921070953"
+    fallAnim.AnimationId = "http://www.roblox.com/asset/?id=616157476"
+    swimAnim.AnimationId = "http://www.roblox.com/asset/?id=99384245425157"
+    swimIdleAnim.AnimationId = "http://www.roblox.com/asset/?id=113199415118199"
+
     Animate.Disabled = false
 end
 
